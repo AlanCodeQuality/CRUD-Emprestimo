@@ -32,7 +32,7 @@ Este projeto é um sistema para gerenciamento de empréstimos de carros, oferece
 
 ## Estrutura do Projeto
 
-```bash
+
 ├── controllers
 │   ├── clientes.js   # Controlador de clientes (CRUD)
 │   ├── veiculos.js   # Controlador de veículos (CRUD)
