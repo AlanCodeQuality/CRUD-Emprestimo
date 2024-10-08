@@ -1,6 +1,6 @@
 ﻿# CRUD-Emprestimo
 
-## Este projeto é um sistema de gerenciamento de empréstimo de veículos que permite o cadastro de clientes, veículos e registros de empréstimos. Utiliza SQLite como banco de dados e Express.js para a construção da API.
+# Este projeto é um sistema de gerenciamento de empréstimo de veículos que permite o cadastro de clientes, veículos e registros de empréstimos. Utiliza SQLite como banco de dados e Express.js para a construção da API.
 
 ## Tecnologias Utilizadas
 
