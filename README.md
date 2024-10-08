@@ -2,6 +2,7 @@
 
 Este projeto é um sistema para gerenciamento de empréstimos de carros, oferecendo funcionalidades como cadastro de usuários, cadastro de veículos (itens de empréstimo) e gerenciamento dos empréstimos, incluindo a devolução e valores dos empréstimos.
 
+
 ## Funcionalidades
 
 - **Cadastro de Clientes:** Adicionar, atualizar, selecionar e deletar clientes no sistema.
@@ -29,20 +30,6 @@ Este projeto é um sistema para gerenciamento de empréstimos de carros, oferece
 2. Instale as dependências utilizando o comando:
    ```bash
    npm install
-
-## Estrutura do Projeto
-
-
-├── controllers
-│   ├── clientes.js   # Controlador de clientes (CRUD)
-│   ├── veiculos.js   # Controlador de veículos (CRUD)
-│   └── emprestimos.js # Controlador de empréstimos (CRUD)
-├── routes.js         # Definição das rotas da API
-├── createTable.js    # Script para criação e inicialização do banco de dados
-├── db.js             # Conexão com o banco de dados SQLite
-├── server.js         # Arquivo principal que inicializa o servidor
-└── backend/SSL       # Certificados SSL para HTTPS
-
 
 # Inicialização do Banco de Dados
 
