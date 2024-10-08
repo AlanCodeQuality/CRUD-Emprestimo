@@ -2,6 +2,11 @@
 
 Este projeto é um sistema para gerenciamento de empréstimos de carros, oferecendo funcionalidades como cadastro de usuários, cadastro de veículos (itens de empréstimo) e gerenciamento dos empréstimos.
 
+## Estrutura do Projeto 
+
+![image](https://github.com/user-attachments/assets/8e18e266-c431-420d-abee-46333e51a31c)
+
+
 ## Funcionalidades
 
 - **Cadastro de Clientes:** Adicionar, atualizar, selecionar e deletar clientes no sistema.
@@ -183,17 +188,6 @@ O banco será populado com alguns dados iniciais para facilitar os testes.
 
 **Pós-condição:** O cliente é removido do banco de dados.
 
-## Estrutura do Projeto
 
-
-├── controllers
-│   ├── clientes.js   # Controlador de clientes (CRUD)
-│   ├── veiculos.js   # Controlador de veículos (CRUD)
-│   └── emprestimos.js # Controlador de empréstimos (CRUD)
-├── routes.js         # Definição das rotas da API
-├── createTable.js    # Script para criação e inicialização do banco de dados
-├── db.js             # Conexão com o banco de dados SQLite
-├── server.js         # Arquivo principal que inicializa o servidor
-└── backend/SSL       # Certificados SSL para HTTPS
 
 
