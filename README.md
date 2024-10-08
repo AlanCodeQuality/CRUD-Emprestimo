@@ -1,6 +1,6 @@
 # Sistema de Gerenciamento de Empréstimos
 
-Este projeto é um sistema básico para gerenciamento de empréstimos de itens, oferecendo funcionalidades como cadastro de usuários, cadastro de veículos (itens de empréstimo) e gerenciamento dos empréstimos, incluindo a devolução e valores dos empréstimos.
+Este projeto é um sistema para gerenciamento de empréstimos de carros, oferecendo funcionalidades como cadastro de usuários, cadastro de veículos (itens de empréstimo) e gerenciamento dos empréstimos, incluindo a devolução e valores dos empréstimos.
 
 ## Funcionalidades
 
@@ -18,6 +18,18 @@ Este projeto é um sistema básico para gerenciamento de empréstimos de itens, 
 - **Cors**: Middleware para habilitar o CORS (Cross-Origin Resource Sharing).
 - **HTTPS**: Servidor rodando com certificados SSL para comunicação segura.
 
+# Execução do Projeto
+
+## Pré-requisitos
+- Node.js
+- SQLite
+
+## Instalação
+1. Clone o repositório do projeto.
+2. Instale as dependências utilizando o comando:
+   ```bash
+   npm install
+
 ## Estrutura do Projeto
 
 ```bash
@@ -30,6 +42,7 @@ Este projeto é um sistema básico para gerenciamento de empréstimos de itens, 
 ├── db.js             # Conexão com o banco de dados SQLite
 ├── server.js         # Arquivo principal que inicializa o servidor
 └── backend/SSL       # Certificados SSL para HTTPS
+
 
 # Inicialização do Banco de Dados
 
